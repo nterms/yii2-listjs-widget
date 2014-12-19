@@ -1,0 +1,23 @@
+{
+	"name": "nterms/yii2-listjs-widget",
+	"description": "List.js widget for Yii2",
+	"keywords": ["yii2", "extension", "widget", "listjs", "list"],
+	"homepage": "https://github.com/nterms/yii2-listjs-widget",
+	"type": "yii2-extension",
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Saranga Abeykoon",
+			"email": "amisaranga@gmail.com",
+			"homepage": "http://nterms.com/"
+		}
+	],
+	"require": {
+		"yiisoft/yii2": "*"
+	},
+	"autoload": {
+		"psr-4": {
+			"nterms\\listjs\\": ""
+		}
+	}
+}
